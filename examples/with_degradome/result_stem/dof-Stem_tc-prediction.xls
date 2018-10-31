@@ -1,0 +1,3 @@
+matID_5p	matSEQ_5p	BEGIN_5p	END_5p	Homology_5p	matID_3p	matSEQ_3p	BEGIN_3p	END_3p	Homology_3p	Pri_ID	Pre_ID	Deg_signal
+Stem_tc_dof-miR1-5p	CCGAGCCGGGACGTGGCGG	9	27	NON	Stem_tc_dof-miR1-3p	GCCGGCGGGGGCCTCGGGA	57	75	NON	Stem_tc_dof-pri-MIR1	Stem_tc_dof-pre-MIR1	0_0_1_0
+Stem_tc_dof-miR2-5p	TCAAAAACAACTTGAGCATC	88	107	NON	Stem_tc_dof-miR2-3p	TGCTCAAGTGGTTTTTGAGT	203	222	NON	Stem_tc_dof-pri-MIR2	Stem_tc_dof-pre-MIR2	1_0_1_0

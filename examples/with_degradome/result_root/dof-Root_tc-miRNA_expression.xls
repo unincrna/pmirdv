@@ -1,0 +1,5 @@
+Mature_ID	Mature_seq	Conservation	R1	R2
+Root_tc_dof-miR1-5p	TCAAAAACAACTTGAGCATC	NON	288.66	110.65	
+Root_tc_dof-miR1-3p	TGCTCAAGTGGTTTTTGAGT	NON	0	0.17	
+Root_tc_dof-miR2-5p	TGAAGCTGCCAGCATGATCTGA	mes-miR167e&gma-miR167g&bdi-miR167e-5p&mes-miR167f&bdi-miR167d-5p&ccl-miR167a&bdi-miR167g&ppe-miR167c&ata-miR167d-5p&ata-miR167b-5p&ccl-miR167b&cpa-miR167d&mes-miR167d&bdi-miR167c-5p&ctr-miR167	285.04	300.59	
+Root_tc_dof-miR2-3p	AGATCATGTGGTAGTTTCATC	NON	3.12	2.22	

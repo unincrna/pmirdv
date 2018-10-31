@@ -1,0 +1,4 @@
+Flower_tc.fasta F1.rdp.fasta/F2.rdp.fasta dF.fasta
+Leaf_tc.fasta L1.rdp.fasta/L2.rdp.fasta dL.fasta
+Root_tc.fasta R1.rdp.fasta/R2.rdp.fasta dR.fasta
+Stem_tc.fasta S1.rdp.fasta/S2.rdp.fasta dS.fasta

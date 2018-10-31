@@ -1,0 +1,21 @@
+
+Organism: dof
+Transcriptome : Root_tc.fasta
+sRNA-seq      : R1.rdp.fasta/R2.rdp.fasta
+Degradome-seq : dR.fasta
+
+********************
+miRDeep-P Result: 
+********************
+Mature miRNAs (unique sequences): 4 ( 4 )
+Conserved mature miRNAs (unique sequences): 1 ( 1 )
+Pri-miRNAs : 2
+Pri-miRNAs with degradome signals: 1
+Degradome-supported cropping sites : site1: 0 ; site2: 1 ; site3: 1 ; site4: 0
+
+
+************************************
+Homology search result (miRBase21) 
+************************************
+Mature miRNAs: 135
+

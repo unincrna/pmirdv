@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="300" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<line stroke="black" stroke-width="2" x1="40" x2="40" y1="15" y2="285" />
+	<line stroke="black" stroke-width="2" x1="40" x2="46.4285714285714" y1="231" y2="231" />
+	<text font-size="12" x="49.6428571428571" y="231">200</text>
+	<line stroke="black" stroke-width="2" x1="40" x2="46.4285714285714" y1="177" y2="177" />
+	<text font-size="12" x="49.6428571428571" y="177">400</text>
+	<line stroke="black" stroke-width="2" x1="40" x2="46.4285714285714" y1="123" y2="123" />
+	<text font-size="12" x="49.6428571428571" y="123">600</text>
+	<line stroke="black" stroke-width="2" x1="40" x2="46.4285714285714" y1="69" y2="69" />
+	<text font-size="12" x="49.6428571428571" y="69">800</text>
+	<line stroke="black" stroke-width="2" x1="40" x2="46.4285714285714" y1="15" y2="15" />
+	<text font-size="12" x="49.6428571428571" y="15">1000</text>
+	<line stroke="black" stroke-width="2" x1="40" x2="800" y1="285" y2="285" />
+	<path d="M 40,285 L 40,285 L 46.4285714285714,285 L 46.4285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 46.4285714285714,285 L 46.4285714285714,285 L 52.8571428571429,285 L 52.8571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 52.8571428571429,285 L 52.8571428571429,285 L 59.2857142857143,285 L 59.2857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 59.2857142857143,285 L 59.2857142857143,285 L 65.7142857142857,285 L 65.7142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 65.7142857142857,285 L 65.7142857142857,285 L 72.1428571428571,285 L 72.1428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="68.9285714285714" x2="68.9285714285714" y1="285" y2="284" />
+	<path d="M 72.1428571428571,285 L 72.1428571428571,285 L 78.5714285714286,285 L 78.5714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 78.5714285714286,285 L 78.5714285714286,285 L 85,285 L 85,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 85,285 L 85,285 L 91.4285714285714,285 L 91.4285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 91.4285714285714,285 L 91.4285714285714,285 L 97.8571428571429,285 L 97.8571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 97.8571428571429,285 L 97.8571428571429,285 L 104.285714285714,285 L 104.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="97.8571428571429" y="297">10</text>
+	<line stroke="black" stroke-width="2" x1="101.071428571429" x2="101.071428571429" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="101.071428571429" x2="101.071428571429" y1="285" y2="284" />
+	<path d="M 104.285714285714,285 L 104.285714285714,285 L 110.714285714286,285 L 110.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 110.714285714286,285 L 110.714285714286,285 L 117.142857142857,285 L 117.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 117.142857142857,285 L 117.142857142857,285 L 123.571428571429,285 L 123.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 123.571428571429,285 L 123.571428571429,285 L 130,285 L 130,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 130,285 L 130,285 L 136.428571428571,285 L 136.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="133.214285714286" x2="133.214285714286" y1="285" y2="284" />
+	<path d="M 136.428571428571,285 L 136.428571428571,285 L 142.857142857143,285 L 142.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 142.857142857143,285 L 142.857142857143,285 L 149.285714285714,285 L 149.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 149.285714285714,285 L 149.285714285714,285 L 155.714285714286,285 L 155.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 155.714285714286,285 L 155.714285714286,285 L 162.142857142857,285 L 162.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 162.142857142857,285 L 162.142857142857,285 L 168.571428571429,285 L 168.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="162.142857142857" y="297">20</text>
+	<line stroke="black" stroke-width="2" x1="165.357142857143" x2="165.357142857143" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="165.357142857143" x2="165.357142857143" y1="285" y2="284" />
+	<path d="M 168.571428571429,285 L 168.571428571429,285 L 175,285 L 175,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 175,285 L 175,284.9082 L 181.428571428571,284.9082 L 181.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 181.428571428571,285 L 181.428571428571,121.4745 L 187.857142857143,121.4745 L 187.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 187.857142857143,285 L 187.857142857143,120.705 L 194.285714285714,120.705 L 194.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 194.285714285714,285 L 194.285714285714,120.6159 L 200.714285714286,120.6159 L 200.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="197.5" x2="197.5" y1="285" y2="284" />
+	<path d="M 200.714285714286,285 L 200.714285714286,120.4836 L 207.142857142857,120.4836 L 207.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 207.142857142857,285 L 207.142857142857,120.4404 L 213.571428571429,120.4404 L 213.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 213.571428571429,285 L 213.571428571429,120.4404 L 220,120.4404 L 220,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 220,285 L 220,120.4404 L 226.428571428571,120.4404 L 226.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 226.428571428571,285 L 226.428571428571,120.4404 L 232.857142857143,120.4404 L 232.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="226.428571428571" y="297">30</text>
+	<line stroke="black" stroke-width="2" x1="229.642857142857" x2="229.642857142857" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="229.642857142857" x2="229.642857142857" y1="285" y2="284" />
+	<path d="M 232.857142857143,285 L 232.857142857143,120.4404 L 239.285714285714,120.4404 L 239.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 239.285714285714,285 L 239.285714285714,120.4404 L 245.714285714286,120.4404 L 245.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 245.714285714286,285 L 245.714285714286,120.4404 L 252.142857142857,120.4404 L 252.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 252.142857142857,285 L 252.142857142857,120.4404 L 258.571428571429,120.4404 L 258.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 258.571428571429,285 L 258.571428571429,120.4404 L 265,120.4404 L 265,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="261.785714285714" x2="261.785714285714" y1="285" y2="284" />
+	<path d="M 265,285 L 265,120.4404 L 271.428571428571,120.4404 L 271.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 271.428571428571,285 L 271.428571428571,120.4404 L 277.857142857143,120.4404 L 277.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 277.857142857143,285 L 277.857142857143,120.4404 L 284.285714285714,120.4404 L 284.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 284.285714285714,285 L 284.285714285714,120.5295 L 290.714285714286,120.5295 L 290.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 290.714285714286,285 L 290.714285714286,120.5295 L 297.142857142857,120.5295 L 297.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="290.714285714286" y="297">40</text>
+	<line stroke="black" stroke-width="2" x1="293.928571428571" x2="293.928571428571" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="293.928571428571" x2="293.928571428571" y1="285" y2="284" />
+	<path d="M 297.142857142857,285 L 297.142857142857,120.5727 L 303.571428571429,120.5727 L 303.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 303.571428571429,285 L 303.571428571429,121.4286 L 310,121.4286 L 310,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 310,285 L 310,124.1205 L 316.428571428571,124.1205 L 316.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 316.428571428571,285 L 316.428571428571,124.6173 L 322.857142857143,124.6173 L 322.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 322.857142857143,285 L 322.857142857143,283.8633 L 329.285714285714,283.8633 L 329.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="326.071428571429" x2="326.071428571429" y1="285" y2="284" />
+	<path d="M 329.285714285714,285 L 329.285714285714,284.7732 L 335.714285714286,284.7732 L 335.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 335.714285714286,285 L 335.714285714286,285 L 342.142857142857,285 L 342.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 342.142857142857,285 L 342.142857142857,285 L 348.571428571429,285 L 348.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 348.571428571429,285 L 348.571428571429,285 L 355,285 L 355,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 355,285 L 355,285 L 361.428571428571,285 L 361.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="355" y="297">50</text>
+	<line stroke="black" stroke-width="2" x1="358.214285714286" x2="358.214285714286" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="358.214285714286" x2="358.214285714286" y1="285" y2="284" />
+	<path d="M 361.428571428571,285 L 361.428571428571,285 L 367.857142857143,285 L 367.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 367.857142857143,285 L 367.857142857143,285 L 374.285714285714,285 L 374.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 374.285714285714,285 L 374.285714285714,285 L 380.714285714286,285 L 380.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 380.714285714286,285 L 380.714285714286,285 L 387.142857142857,285 L 387.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 387.142857142857,285 L 387.142857142857,285 L 393.571428571429,285 L 393.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="390.357142857143" x2="390.357142857143" y1="285" y2="284" />
+	<path d="M 393.571428571429,285 L 393.571428571429,285 L 400,285 L 400,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 400,285 L 400,285 L 406.428571428571,285 L 406.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 406.428571428571,285 L 406.428571428571,285 L 412.857142857143,285 L 412.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 412.857142857143,285 L 412.857142857143,285 L 419.285714285714,285 L 419.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 419.285714285714,285 L 419.285714285714,285 L 425.714285714286,285 L 425.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="419.285714285714" y="297">60</text>
+	<line stroke="black" stroke-width="2" x1="422.5" x2="422.5" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="422.5" x2="422.5" y1="285" y2="284" />
+	<path d="M 425.714285714286,285 L 425.714285714286,285 L 432.142857142857,285 L 432.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 432.142857142857,285 L 432.142857142857,285 L 438.571428571429,285 L 438.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 438.571428571429,285 L 438.571428571429,285 L 445,285 L 445,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 445,285 L 445,285 L 451.428571428571,285 L 451.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 451.428571428571,285 L 451.428571428571,285 L 457.857142857143,285 L 457.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="454.642857142857" x2="454.642857142857" y1="285" y2="284" />
+	<path d="M 457.857142857143,285 L 457.857142857143,285 L 464.285714285714,285 L 464.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 464.285714285714,285 L 464.285714285714,284.4546 L 470.714285714286,284.4546 L 470.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 470.714285714286,285 L 470.714285714286,283.1775 L 477.142857142857,283.1775 L 477.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 477.142857142857,285 L 477.142857142857,283.1316 L 483.571428571429,283.1316 L 483.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 483.571428571429,285 L 483.571428571429,281.6898 L 490,281.6898 L 490,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="483.571428571429" y="297">70</text>
+	<line stroke="black" stroke-width="2" x1="486.785714285714" x2="486.785714285714" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="486.785714285714" x2="486.785714285714" y1="285" y2="284" />
+	<path d="M 490,285 L 490,281.6466 L 496.428571428571,281.6466 L 496.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 496.428571428571,285 L 496.428571428571,281.6466 L 502.857142857143,281.6466 L 502.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 502.857142857143,285 L 502.857142857143,281.6466 L 509.285714285714,281.6466 L 509.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 509.285714285714,285 L 509.285714285714,281.6466 L 515.714285714286,281.6466 L 515.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 515.714285714286,285 L 515.714285714286,281.6466 L 522.142857142857,281.6466 L 522.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="518.928571428571" x2="518.928571428571" y1="285" y2="284" />
+	<path d="M 522.142857142857,285 L 522.142857142857,281.6466 L 528.571428571429,281.6466 L 528.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 528.571428571429,285 L 528.571428571429,281.6466 L 535,281.6466 L 535,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 535,285 L 535,281.6466 L 541.428571428571,281.6466 L 541.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 541.428571428571,285 L 541.428571428571,281.6466 L 547.857142857143,281.6466 L 547.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 547.857142857143,285 L 547.857142857143,281.6466 L 554.285714285714,281.6466 L 554.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="547.857142857143" y="297">80</text>
+	<line stroke="black" stroke-width="2" x1="551.071428571429" x2="551.071428571429" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="551.071428571429" x2="551.071428571429" y1="285" y2="284" />
+	<path d="M 554.285714285714,285 L 554.285714285714,281.6466 L 560.714285714286,281.6466 L 560.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 560.714285714286,285 L 560.714285714286,281.6466 L 567.142857142857,281.6466 L 567.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 567.142857142857,285 L 567.142857142857,281.6466 L 573.571428571429,281.6466 L 573.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 573.571428571429,285 L 573.571428571429,281.6466 L 580,281.6466 L 580,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 580,285 L 580,281.6466 L 586.428571428571,281.6466 L 586.428571428571,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="583.214285714286" x2="583.214285714286" y1="285" y2="284" />
+	<path d="M 586.428571428571,285 L 586.428571428571,281.6466 L 592.857142857143,281.6466 L 592.857142857143,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 592.857142857143,285 L 592.857142857143,281.6466 L 599.285714285714,281.6466 L 599.285714285714,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 599.285714285714,285 L 599.285714285714,281.6466 L 605.714285714286,281.6466 L 605.714285714286,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 605.714285714286,285 L 605.714285714286,281.6466 L 612.142857142857,281.6466 L 612.142857142857,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<path d="M 612.142857142857,285 L 612.142857142857,281.6466 L 618.571428571429,281.6466 L 618.571428571429,285 Z" style="fill:gold;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="612.142857142857" y="297">90</text>
+	<line stroke="black" stroke-width="2" x1="615.357142857143" x2="615.357142857143" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="615.357142857143" x2="615.357142857143" y1="285" y2="284" />
+	<path d="M 618.571428571429,285 L 618.571428571429,284.9082 L 625,284.9082 L 625,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 625,285 L 625,285 L 631.428571428571,285 L 631.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 631.428571428571,285 L 631.428571428571,285 L 637.857142857143,285 L 637.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 637.857142857143,285 L 637.857142857143,285 L 644.285714285714,285 L 644.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 644.285714285714,285 L 644.285714285714,285 L 650.714285714286,285 L 650.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="647.5" x2="647.5" y1="285" y2="284" />
+	<path d="M 650.714285714286,285 L 650.714285714286,285 L 657.142857142857,285 L 657.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 657.142857142857,285 L 657.142857142857,285 L 663.571428571429,285 L 663.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 663.571428571429,285 L 663.571428571429,285 L 670,285 L 670,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 670,285 L 670,285 L 676.428571428571,285 L 676.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 676.428571428571,285 L 676.428571428571,285 L 682.857142857143,285 L 682.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="676.428571428571" y="297">100</text>
+	<line stroke="black" stroke-width="2" x1="679.642857142857" x2="679.642857142857" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="679.642857142857" x2="679.642857142857" y1="285" y2="284" />
+	<path d="M 682.857142857143,285 L 682.857142857143,285 L 689.285714285714,285 L 689.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 689.285714285714,285 L 689.285714285714,285 L 695.714285714286,285 L 695.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 695.714285714286,285 L 695.714285714286,285 L 702.142857142857,285 L 702.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 702.142857142857,285 L 702.142857142857,285 L 708.571428571429,285 L 708.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 708.571428571429,285 L 708.571428571429,285 L 715,285 L 715,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<line stroke="black" stroke-width="2" x1="711.785714285714" x2="711.785714285714" y1="285" y2="284" />
+	<path d="M 715,285 L 715,285 L 721.428571428571,285 L 721.428571428571,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 721.428571428571,285 L 721.428571428571,285 L 727.857142857143,285 L 727.857142857143,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 727.857142857143,285 L 727.857142857143,285 L 734.285714285714,285 L 734.285714285714,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 734.285714285714,285 L 734.285714285714,285 L 740.714285714286,285 L 740.714285714286,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 740.714285714286,285 L 740.714285714286,285 L 747.142857142857,285 L 747.142857142857,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<text font-size="10" x="740.714285714286" y="297">110</text>
+	<line stroke="black" stroke-width="2" x1="743.928571428572" x2="743.928571428572" y1="285" y2="283" />
+	<line stroke="black" stroke-width="2" x1="743.928571428572" x2="743.928571428572" y1="285" y2="284" />
+	<path d="M 747.142857142857,285 L 747.142857142857,285 L 753.571428571429,285 L 753.571428571429,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<path d="M 753.571428571429,285 L 753.571428571429,285 L 760,285 L 760,285 Z" style="fill:blue;stroke:black;stroke-width:0.5;" />
+	<!-- 
+	Generated using the Perl SVG Module V2.50
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>
