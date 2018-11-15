@@ -10,9 +10,8 @@ my $usage=
 PARAMETERS:
 
 --help|-h : Usage
---org     : Orgnism(abbreviation,like ath);
---joblist : Group information of transcriptome/sRNA/degradome,
-            each group per line [String];
+--org     : Organism(abbreviation,like ath);
+--joblist : Job information,each task per line [String];
 --proc|-p : Number of processors to use [Integer,default 3];
 --exlen   : Length of pri-miRNA extension [Integer,default 50];
 --cdna    : Directory contains transcriptome files [Default: ./];
@@ -77,7 +76,7 @@ while (<JOB>) {
 
 
 #miRDP and parse
-	system(qq(perl ./scripts/step1_miRDP.pl $transcriptome_dir $trans_file $srna_dir $set[1]));
+	system(qq(perl ./scripts/step1_miRDP.pl $proc $transcriptome_dir $trans_file $srna_dir $set[1]));
 	system(qq(perl ./scripts/step2_parse_miRDP.pl $trans_file $set[1]));
 	system(qq(perl ./scripts/step3_miRDP_mature_star_parse.pl $known_miRNAs $trans_file));
 #miRDP END

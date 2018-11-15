@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $usage="perl $0 <organism><miRbase_plant><transcriptome><sRNA_dir><srna_list>";
+my $usage="perl $0 <organism><known_miRNAs><transcriptome><sRNA_dir><srna_list>";
 my ($org,$plantmiR,$trans_file,$srna_dir,$srna_list)=@ARGV;
 if ($#ARGV!=4) {
 	die $usage;

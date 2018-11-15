@@ -4,7 +4,7 @@
 use SVG;
 
 my $usage=
-"perl $0 <organism> <transcriptome> <result_dir> <srna_dir> <srna_list> <proc>.\n
+"perl $0 <organism> <transcriptome> <srna_dir> <srna_list> <proc>.\n
 organism      : Abbreviation of the organism;
 transcriptome : File,contains cDNA sequences;
 srna_dir      : Directory,contains the formated sRNA-seq data;

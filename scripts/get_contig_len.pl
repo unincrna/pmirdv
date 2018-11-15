@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#usage: perl $0 <cdna_dir> <transcriptome file>;
+#usage: perl $0 <cdna_dir> <transcriptome>;
 
 my ($trans_dir,$transcriptome)=@ARGV;
 

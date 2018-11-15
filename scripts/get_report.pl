@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
 #generate the report;
-
+my $usage="perl $0 <organism> <transcriptome> <srna_list> <degradome_list>\n";
 my ($org,$transcriptome,$srna_list,$deg_list)=@ARGV;
+die "$usage" if ($#ARGV !=3);
 
 my $result_dir="result";
 my $prefix;

@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-my $usage="usage: perl $0 <extension length> <transcriptome file> <input_dir> <out dir>\n\n".
+my $usage="usage: perl $0 <extension length> <transcriptome> <cdna_dir>\n\n".
 		  "<extension length>   : length of pri-seq extension\n".
-          "<transcriptome file> : transcriptome [FASTA]\n";
+		  "<transcriptome file> : transcriptome [FASTA]\n".
+		  "<cdna_dir>           : directory contains the transcriptome file\n";
 
 (my $exlen,my $transcriptome, my $cdna_dir)=@ARGV;
 die "$usage" if ($#ARGV !=2);

@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
-my $usage="	perl $0 <transcriptome_dir> <transcriptome> <sRNA_dir> <sRNA_file_list>\n";
-my ($trans_dir,$transcriptome,$rdp_file_dir,$rdp_files)=@ARGV;
-if ($#ARGV!=3) {
+my $usage="	perl $0 <proc> <cdna_dir> <transcriptome> <sRNA_dir> <sRNA_file_list>\n";
+my ($proc,$trans_dir,$transcriptome,$rdp_file_dir,$rdp_files)=@ARGV;
+if ($#ARGV!=4) {
 	die $usage;
 }
 
@@ -33,7 +33,7 @@ foreach my $rdpfile (@srnaFiles){
 	}
 	
 	my $bwtA=$data.".aln";
-	system(qq(bowtie -p 5 -a -v 0 -f $trans_dir/$transcriptome $rdp_file_dir/$rdpfile >$pred_dir/miRDP/$data/$bwtA));
+	system(qq(bowtie -p $proc -a -v 0 -f $trans_dir/$transcriptome $rdp_file_dir/$rdpfile >$pred_dir/miRDP/$data/$bwtA));
 #3
 	my $bstA=$data.".bst";
 	system(qq(convert_bowtie_to_blast.pl $pred_dir/miRDP/$data/$bwtA $rdp_file_dir/$rdpfile $trans_dir/$transcriptome >$pred_dir/miRDP/$data/$bstA));
@@ -51,7 +51,7 @@ foreach my $rdpfile (@srnaFiles){
 
 #7
 	my $bwtB=$data."_precursors.aln";
-	system(qq(bowtie -a -v 0 -f -p 20 $pred_dir/miRDP/$data/$preseq $rdp_file_dir/$rdpfile >$pred_dir/miRDP/$data/$bwtB));
+	system(qq(bowtie -a -v 0 -f -p $proc $pred_dir/miRDP/$data/$preseq $rdp_file_dir/$rdpfile >$pred_dir/miRDP/$data/$bwtB));
 
 #8
 	my $bstB=$data."_precursors.bst";
