@@ -17,13 +17,14 @@ PARAMETERS:
 --cdna    : Directory contains transcriptome files [Default: ./];
 --srna    : Directory contains sRNA files [Default: ./];
 --deg     : Directory contains degradome files [Default: ./];
+--ref     : known miRNAs[Default: plantmiR.list];
 ";
 
 ###########################  USAGE-END  #####################################
 
 #--------------------------getopt--------------------------
 use Getopt::Long;
-my ($org,$joblist,$transcriptome_dir,$srna_dir,$degradome_dir,$proc,$description);
+my ($org,$joblist,$transcriptome_dir,$srna_dir,$degradome_dir,$proc,$description,$known_miRNAs);
 
 GetOptions(
 	'org:s' =>\$org,
@@ -33,6 +34,7 @@ GetOptions(
 	'srna:s'=>\$srna_dir,              
 	'deg:s'=>\$degradome_dir,
 	'proc|p:i'=>\$proc,
+	'ref=s'=>\$known_miRNAs,
 	'help|h'=>\$description,
 );
 
@@ -44,11 +46,15 @@ if (! $srna_dir) {$srna_dir="./";}
 if (! $degradome_dir) {$degradome_dir="./";}
 if (! $proc) {$proc=3;}
 if (! $exlen) {$exlen=50;}
+if (! $known_miRNAs){$known_miRNAs="plantmiR.list";}
 
 #-------------------------getopt-END----------------------
 
 
-my $known_miRNAs="plantmiR.list";
+#my $known_miRNAs="plantmiR.list";
+if (! -e $known_miRNAs) {
+	die "File of the reference miRNAs cannot be found\n";
+}
 
 open(JOB,"$joblist") || die "$joblist cannot be found.\n";
 while (<JOB>) {
