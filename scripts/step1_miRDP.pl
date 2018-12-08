@@ -1,12 +1,44 @@
 #!/usr/bin/perl
 
-my $usage="	perl $0 <proc> <cdna_dir> <transcriptome> <sRNA_dir> <sRNA_file_list>\n";
+my $usage="
+perl step1_miRDP.pl <proc> <cdna_dir> <transcriptome> <sRNA_dir> 
+<sRNA_file_list>
+
+parameters:
+proc           :Number of processors to launch;
+cdna_dir       :Directory includes the transcriptome files;
+transcriptome  :File, transcriptome involved in current task;
+sRNA_dir      :Directory includes the normalized sRNA files;
+sRNA_file_list  :Names of sRNA files split by ¡®/¡¯;
+\n";
+
+##check parameters
 my ($proc,$trans_dir,$transcriptome,$rdp_file_dir,$rdp_files)=@ARGV;
 if ($#ARGV!=4) {
 	die $usage;
 }
-
 my @srnaFiles=split(/\//,$rdp_files);
+
+if (! -d $trans_dir) {
+	die "step1_miRDP.pl: directory $trans_dir is not found\n";
+}
+
+if (! -d $rdp_file_dir) {
+	die "step1_miRDP.pl: directory $rdp_file_dir is not found\n";
+}
+
+if (! -e "$trans_dir/$transcriptome") {
+	die "step1_miRDP.pl: file $trans_dir/$transcriptome is not found\n";
+}
+
+foreach my $ckfile (@srnaFiles) {
+	if (! -e "$rdp_file_dir/$ckfile") {
+	die "step1_miRDP.pl: file $rdp_file_dir/$ckfile is not found\n";
+	}
+}
+##check parameters end
+
+
 
 my $pred_dir;
 my $lenstat;
@@ -19,7 +51,9 @@ if ($transcriptome=~/^([^\.]+)\.?/) {
 	}
 }
 
-#1
+## mirdeep-p 
+
+#1 build index
 system(qq(bowtie-build $trans_dir/$transcriptome $trans_dir/$transcriptome));
 
 foreach my $rdpfile (@srnaFiles){
@@ -72,6 +106,8 @@ foreach my $rdpfile (@srnaFiles){
 	my $nrfile=$data."_nr_predictions";
 	my $metP=$data."_filter_P_predictions";
 	system(qq(rm_redundant_meet_plant.pl $trans_dir/$lenstat $pred_dir/miRDP/$data/$preseq $pred_dir/miRDP/$data/$predict $pred_dir/miRDP/$data/$nrfile $pred_dir/miRDP/$data/$metP));
+
+## mirdeep-p end; 
 	
 	print "step1: prediction with $transcriptome and $rdpfile finished\n";
 }

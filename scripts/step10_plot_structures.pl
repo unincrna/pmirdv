@@ -2,7 +2,11 @@
 
 #step10. plot structures of mature miRNAs;
 
-my $usage="perl $0 <org><transcriptome>\n";
+my $usage="perl step10_plot_structures.pl <org> <transcriptome>\n
+parameters:
+org         : Abbreviation of the organism;
+transcriptome : File, transcriptome involved in current task;
+\n";
 
 my ($org,$trans_file)=@ARGV;
 if ($#ARGV!=1) {
@@ -79,7 +83,7 @@ while (<LIST>) {
 }
 close(LIST);
 
-print "step10 finished.\n".
+print "step10 finished.\n";
 
 
 sub getseq{

@@ -1,27 +1,27 @@
 #!/usr/bin/perl
 
-my $usage="perl $0 <known_miRNAs> <transcriptome>";
-die $usage if ($#ARGV!=1);
+my $usage="perl $0 <known_miRNAs> <transcriptome>\n
+parameters:
+transcriptome    :File, transcriptome involved in current task;
+known_miRNAs  :Plain text file contains known miRNAs;
+\n";
 
 (my $conserve_set,my $trans_file)=@ARGV;
 
+die $usage if ($#ARGV!=1);
+
+
 my $mirdp_dir="miRDP_parse";
 my $sorted="miRDP_sort";
-
-my %id;
-open(C,"$conserve_set") || die "$conserve_set cannot be found\n";
-while (<C>) {
-	my @pmiR=split;
-	$id{$pmiR[1]}=$pmiR[2];
-}
-close(C);
-
 my $pred_dir;
 if ($trans_file=~/^([^\.]+)\.?/) {
 	$pred_dir=$1."_dir";
 }
 
 
+if (! -d "$pred_dir/$sorted") {
+	system(qq(mkdir -p $pred_dir/$sorted));
+}
 
 if (-d "$pred_dir/$mirdp_dir") {
 	system(qq(ls $pred_dir/$mirdp_dir/*_miRDP.txt >$pred_dir/mirdp.list));
@@ -30,10 +30,13 @@ else{
 	die $!;
 }
 
-if (! -d "$pred_dir/$sorted") {
-	system(qq(mkdir -p $pred_dir/$sorted));
+my %id;
+open(C,"$conserve_set") || die "$conserve_set cannot be found\n";
+while (<C>) {
+	my @pmiR=split;
+	$id{$pmiR[1]}=$pmiR[2];
 }
-
+close(C);
 
 open(L,"$pred_dir/mirdp.list");
 while (my $file=<L>) {

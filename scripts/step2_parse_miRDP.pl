@@ -1,6 +1,11 @@
 #!/usr/bin/perl
 
-my $usage= "perl $0 <transcriptome> <sRNA_file_list>\n";
+my $usage= "perl $0 <transcriptome> <sRNA_file_list>\n
+parameters:
+transcriptome    :File, transcriptome involved in current task;
+sRNA_file_list   :Names of sRNA files split by ¡®/¡¯;
+\n";
+
 (my $transcriptome,my $srna_list)=@ARGV;
 if ($#ARGV!=1) {
 	die $usage;
@@ -13,6 +18,11 @@ if ($transcriptome=~/^([^\.]+)\.?/) {
 	$trans=$1;
 	$pred_dir=$trans."_dir";
 }
+
+if (! -d "$pred_dir/miRDP") {
+	die "step2_parse_miRDP.pl: all the result from miRDeep-P are assumed to be under $pred_dir/miRDP\n";
+}
+
 if (! -d "$pred_dir/$mirdp_parse") {
 	system(qq(mkdir -p $pred_dir/$mirdp_parse));
 }

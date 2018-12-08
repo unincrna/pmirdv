@@ -1,9 +1,12 @@
 #!/usr/bin/perl
 
-my $usage="usage: perl $0 <extension length> <transcriptome> <cdna_dir>\n\n".
-		  "<extension length>   : length of pri-seq extension\n".
-		  "<transcriptome file> : transcriptome [FASTA]\n".
-		  "<cdna_dir>           : directory contains the transcriptome file\n";
+my $usage="perl step4_add_ex.pl <extension length> <transcriptome> <cdna_dir>
+
+parameters:
+extension length  :extend the predicted pri-miRNAs with a length up to this value;
+transcriptome     :File, transcriptome involved in current task;
+cdna_dir          :Directory includes the transcriptome files;
+\n";
 
 (my $exlen,my $transcriptome, my $cdna_dir)=@ARGV;
 die "$usage" if ($#ARGV !=2);

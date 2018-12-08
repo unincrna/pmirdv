@@ -2,7 +2,14 @@
 
 # Map the degradome to extended pri-miRNA;
 
-my $usage="perl $0 <proc><transcriptome><deg_dir><deg_list>";
+my $usage="perl step5_GetExPriAndMap.pl <proc> <transcriptome> <deg_dir> <deg_list>\n
+
+parameters:
+proc          :Number of processors to launch;
+transcriptome  :File, transcriptome involved in current task;
+deg_dir       :Directory includes the normalized degradome files;
+deg_list       :Names of degradome files split by ¡®/¡¯;
+\n";
 
 (my $proc,my $tran_file,my $deg_dir,my $deg_list)=@ARGV;
 if ($#ARGV!=3) {

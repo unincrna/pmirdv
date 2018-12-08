@@ -3,13 +3,14 @@
 
 use SVG;
 
-my $usage=
-"perl $0 <organism> <transcriptome> <srna_dir> <srna_list> <proc>.\n
-organism      : Abbreviation of the organism;
-transcriptome : File,contains cDNA sequences;
-srna_dir      : Directory,contains the formated sRNA-seq data;
-srna_list     : File, mapping to pri-seq;
-proc          : [Int],used proc number.
+my $usage="
+perl step9_Plot_expression.pl <organism> <transcriptome> <result_dir> <srna_dir> <srna_list> <proc>\n
+parameters:
+organism      :Abbreviation of the organism;
+transcriptome  :File, transcriptome involved in current task;
+sRNA_dir      :Directory includes the normalized sRNA files;
+sRNA_file_list  :Names of sRNA files split by ¡®/¡¯;
+proc         :Number of processors to launch;
 \n";
 
 my ($org,$transcriptome,$srna_dir,$srna_list,$proc)=@ARGV;
@@ -178,7 +179,7 @@ foreach my $item (@priseqs) {
 
 }
 
-print "step9 finished.\n".
+print "step9 finished.\n";
 
 
 ################sub###############

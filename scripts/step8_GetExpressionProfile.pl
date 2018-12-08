@@ -1,6 +1,13 @@
 #!/usr/bin/perl
 
-my $usage="perl $0 <organism><transcriptome><sRNA_dir><sRNA_file_list>\n";
+my $usage="perl step8_GetExpressionProfile.pl <organism> <transcriptome> <sRNA_dir> <sRNA_file_list>\n 
+
+parameters:
+organism      : Abbreviation of the organism;
+transcriptome  :File, transcriptome involved in current task;
+sRNA_dir      :Directory includes the normalized sRNA files;
+sRNA_file_list  :Names of sRNA files split by ¡®/¡¯;
+\n";
 
 my ($org,$transcriptome,$srna_dir,$srna_list)=@ARGV;
 
@@ -106,4 +113,4 @@ sub GetExp{
 	close(IN);
 }
 
-print "step8 finished.\n".
+print "step8 finished.\n";

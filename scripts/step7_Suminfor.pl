@@ -2,7 +2,12 @@
 
 #step7. Full information of a job result.
 
-my $usage=" perl $0 <organism> <transcriptome>\n";
+my $usage="perl step7_Suminfor.pl <organism> <transcriptome>\n
+parameters:
+organism      :Abbreviation of the organism;
+transcriptome  :File, transcriptome involved in current task;
+\n";
+
 my ($org,$transcriptome)=@ARGV;
 if ($#ARGV!=1) {
 	die $usage;
@@ -164,4 +169,4 @@ close(O);
 #clean
 `rm $pred_dir/$outdir/$namefile`;
 
-print "step7 finished.\n".
+print "step7 finished.\n";

@@ -1,8 +1,16 @@
 #!/usr/bin/perl
 
 #generate the report;
-my $usage="perl $0 <organism> <transcriptome> <srna_list> <degradome_list>\n";
+my $usage="perl $0 <organism> <transcriptome> <srna_list> <degradome_list>\n
+parameters:
+organism       : Abbreviation of the organism;
+transcriptome   : File, transcriptome involved in current task;
+sRNA_list       : Names of sRNA files split by ¡®/¡¯;
+degradome_list  : Names of degradome files split by ¡®/¡¯;
+";
+
 my ($org,$transcriptome,$srna_list,$deg_list)=@ARGV;
+
 die "$usage" if ($#ARGV !=3);
 
 my $result_dir="result";
@@ -30,7 +38,7 @@ my $sigB=0;
 my $sigC=0;
 my $sigD=0;
 
-open(RDP,"$pred_dir/$result_dir/$sum_list")|| die "statistics: NO $sum_list was found.\n";
+open(RDP,"$pred_dir/$result_dir/$sum_list")|| die "get_report.pl: NO $sum_list was found.\n";
 <RDP>;
 while (<RDP>) {
 	my @inf=split;
@@ -65,7 +73,7 @@ my $deg_pri=keys %sigpri;
 
 my $homofile=$org."_conserved_miR.xls";
 my $count_conserved=0;
-open(HOMO,"$pred_dir/$result_dir/$homofile") || die "statistics: NO $homofile was found.\n";
+open(HOMO,"$pred_dir/$result_dir/$homofile") || die "get_report.pl: NO $homofile was found.\n";
 <HOMO>;
 while (<HOMO>) {
 	$count_conserved++;
@@ -100,11 +108,10 @@ Mature miRNAs: $count_conserved
 close(O);
 
 
-
 sub count{
 	my $filein=shift;
 	my $reads_number=0;
-	open(IN,"$pred_dir/$result_dir/$filein") || die "statistics: NO $filein was found.\n";
+	open(IN,"$pred_dir/$result_dir/$filein") || die "get_report.pl: NO $filein was found.\n";
 	while (<IN>) {
 		if (/^>/) {
 			$reads_number++;

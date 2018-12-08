@@ -1,6 +1,10 @@
 #!/usr/bin/perl
 
-my $usage=" perl $0 <orgnism> <transcriptome>\n";
+my $usage="perl step6_Name_NODEG.pl <organism> <transcriptome>\n
+parameters:
+organism       :Abbreviation of the organism;
+transcriptome  :File, transcriptome involved in current task;
+\n";
 
 (my $org,my $transcriptome)=@ARGV;
 
@@ -209,4 +213,4 @@ close(O);
 #clean
 `rm $pred_dir/$outdir/uniqlist.txt`;
 
-print "step6 finished.\n".
+print "step6 finished.\n";

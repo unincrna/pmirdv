@@ -1,13 +1,20 @@
 #!/usr/bin/perl
 
-my $usage="perl $0 <organism><known_miRNAs><transcriptome><sRNA_dir><srna_list>";
+my $usage="perl $0 <organism><known_miRNAs><transcriptome><sRNA_dir><srna_list>
+parameters:
+organism       : Abbreviation of the organism;
+known_miRNAs  : Plain text file contains known miRNAs;
+transcriptome   : File, transcriptome involved in current task;
+sRNA_dir      :Directory includes the normalized sRNA files;
+sRNA_file_list  :Names of sRNA files split by ¡®/¡¯;
+\n";
 my ($org,$plantmiR,$trans_file,$srna_dir,$srna_list)=@ARGV;
 if ($#ARGV!=4) {
 	die $usage;
 }
 
 if (!-d $srna_dir) {
-	die "NO $sRNA_dir was found.\n";
+	die "conserve_miRNA_search.pl: NO $sRNA_dir was found.\n";
 }
 
 my $result_dir="result";
@@ -21,7 +28,7 @@ if ($trans_file=~/^([^\.]+)\./) {
 
 
 if (!-d "$pred_dir/$result_dir") {
-	die $usage;
+	die "conserve_miRNA_search.pl: Directory $pred_dir/$result_dir is not found\n";
 }
 
 
@@ -29,7 +36,12 @@ my %tag;
 my %datasets;
 my %conserved_miR;
 my %mirbase;
-open(DB,"$plantmiR");
+open(DB,"$plantmiR") || die "conserve_miRNA_search.pl: $plantmiR is not found under current directory";
+# $plantmiR is organized as
+# temporary_ID	miRNA_sequences	miRbase_ID
+# e.g.,
+# plantmiR1	AGGGGGCAATCTCACCTCAAC	ata-miR9772b-3p&ata-miR9772a-3p
+
 while (<DB>) {
 	chomp;
 	my @tmp=split;
@@ -47,7 +59,7 @@ foreach my $srna (@srnas) {
 		$data=$1;
 	}
 	push(@datasets,$data);
-	open(IN,"$srna_dir/$srna") || die "sRNA files cannot be found under $sRNA_dir when homology searching.\n";
+	open(IN,"$srna_dir/$srna") || die "conserve_miRNA_search.pl: sRNA files cannot be found under $sRNA_dir when homology searching.\n";
 	while (<IN>) {
 		chomp;
 		if (/^>(\S+)/) {
